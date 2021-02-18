@@ -1,0 +1,31 @@
+
+.swiper-container {
+    position: relative;
+    .swiper-slide-wrapper{
+        position: absolute;
+        overflow: hidden;
+        transform-style:preserve-3d;
+    }
+    .swiper-slide-container {
+        position: relative;
+        transform-style:preserve-3d;
+        .swiper-slide {
+        position: absolute;
+        transition: opacity;
+        }
+    }
+    .swiper-pagination {
+        position: absolute;
+        .pagination-list {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+
+
+
+
+
+
